@@ -85,5 +85,19 @@
     </requiredCapacities>
     <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>RR_InquireForeigner</defName>
+    <label>do research</label>
+    <giverClass>PeteTimesSix.ResearchReinvented.Rimworld.WorkGivers.WorkGiver_InquireForeigner</giverClass>
+    <workType>Research</workType>
+    <verb>learn</verb>
+    <gerund>learning from</gerund>
+    <priorityInType>153</priorityInType>
+    <requiredCapacities>
+      <li>Talking</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
   
 </Defs>

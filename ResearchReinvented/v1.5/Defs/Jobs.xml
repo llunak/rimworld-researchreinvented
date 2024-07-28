@@ -43,4 +43,11 @@
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
 
+  <JobDef>
+    <defName>RR_InquireForeigner</defName>
+    <driverClass>PeteTimesSix.ResearchReinvented.Rimworld.JobDrivers.JobDriver_InquireForeigner</driverClass>
+    <reportString>learning from {0}.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
 </Defs>
